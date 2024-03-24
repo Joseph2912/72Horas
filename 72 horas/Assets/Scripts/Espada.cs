@@ -4,18 +4,17 @@ using UnityEngine;
 
 public class Espada : MonoBehaviour
 {
-   // public Chicken chicken;
     private int golpes = 0;
 
     private void OnTriggerEnter(Collider other)
     {
 
-        //if (other.CompareTag("Gallina"))
-        //{
-        //    //golpes++;
-        //    other.GetComponent<Chicken>().RecibirGolpe();
+        if (other.CompareTag("Enemy"))
+        {
+            golpes++;
+            other.GetComponent<VidaEnemy>().RecibirGolpe();
 
-        //}
+        }
     }
     public void AumentarGolpes()
     {
