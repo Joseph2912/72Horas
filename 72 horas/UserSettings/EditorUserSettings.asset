@@ -12,6 +12,7 @@ EditorUserSettings:
       value: 5b095252510651580b5d0e7341250844474f407a2e7d73317e7e1b61b4b36360
       flags: 0
     RecentlyUsedSceneGuid-2:
+<<<<<<< Updated upstream
       value: 0755010557530a5e5e0d59774875064446164e7d287d7f64747e4430e1e4313d
       flags: 0
     RecentlyUsedSceneGuid-3:
@@ -19,8 +20,18 @@ EditorUserSettings:
       flags: 0
     RecentlyUsedSceneGuid-4:
       value: 5454025f5004500a095d0e7312775b4442164a292d2e726674791e31b5b1623d
+=======
+      value: 5454025f5004500a095d0e7312775b4442164a292d2e726674791e31b5b1623d
+      flags: 0
+    RecentlyUsedSceneGuid-3:
+      value: 5b06025204065d09550f0e7043200b44414f4b727e792767757e1837e4e56568
+>>>>>>> Stashed changes
+      flags: 0
+    RecentlyUsedSceneGuid-4:
+      value: 5b07510704535002580a0a7b48200944434f1b7a7b7127647d7e4866b2b56d3e
       flags: 0
     RecentlyUsedSceneGuid-5:
+<<<<<<< Updated upstream
       value: 5b06025204065d09550f0e7043200b44414f4b727e792767757e1837e4e56568
       flags: 0
     RecentlyUsedSceneGuid-6:
@@ -30,6 +41,14 @@ EditorUserSettings:
       value: 50080d545d565c5d0e590d7114200f4410154f797a7d20322c701961b1b6373a
       flags: 0
     RecentlyUsedSceneGuid-8:
+=======
+      value: 07060d025d03580c5d585f724522084414154a727d2976622e2d1e6ae6e2366e
+      flags: 0
+    RecentlyUsedSceneGuid-6:
+      value: 570351525d515109085f0823117a5d4441164b7b2f2c7f3679784566e3b16c3d
+      flags: 0
+    RecentlyUsedSceneGuid-7:
+>>>>>>> Stashed changes
       value: 0754005156565b080b5e5e2640265e4412161a7c2a7072327c2f4b64b2b3316e
       flags: 0
     RecentlyUsedSceneGuid-9:
