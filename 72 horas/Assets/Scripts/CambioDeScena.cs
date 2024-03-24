@@ -15,6 +15,11 @@ public class CambioDeScena : MonoBehaviour
         SceneManager.LoadScene("Instrucciones");
     }
 
+    public void Inicio()
+    {
+        SceneManager.LoadScene("inicio");
+    }
+
     public void Salir()
     {
 #if UNITY_EDITOR

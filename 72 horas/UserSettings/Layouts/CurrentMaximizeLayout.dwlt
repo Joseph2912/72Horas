@@ -23,7 +23,7 @@ MonoBehaviour:
   m_MinSize: {x: 400, y: 100}
   m_MaxSize: {x: 32384, y: 16192}
   vertical: 1
-  controlID: 10233
+  controlID: -1
 --- !u!114 &2
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -102,8 +102,8 @@ MonoBehaviour:
       y: 21
       width: 368
       height: 278
-    m_Scale: {x: 0.19166666, y: 0.19166666}
-    m_Translation: {x: 184, y: 139}
+    m_Scale: {x: 0.28893042, y: 0.28893042}
+    m_Translation: {x: 277.3732, y: 156.02243}
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
@@ -111,9 +111,9 @@ MonoBehaviour:
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
       x: -960
-      y: -725.2174
-      width: 1920
-      height: 1450.4348
+      y: -540
+      width: 1273.6631
+      height: 962.1694
     m_MinimalGUI: 1
   m_defaultScale: 0.19166666
   m_LastWindowPixelSize: {x: 368, y: 299}
@@ -146,7 +146,7 @@ MonoBehaviour:
   m_MinSize: {x: 400, y: 100}
   m_MaxSize: {x: 32384, y: 16192}
   vertical: 0
-  controlID: 10234
+  controlID: -1
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -171,7 +171,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 100}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 1
-  controlID: 10235
+  controlID: -1
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -197,7 +197,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 50}
   m_MaxSize: {x: 24288, y: 8096}
   vertical: 0
-  controlID: 10236
+  controlID: -1
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -260,10 +260,10 @@ MonoBehaviour:
     m_OverlaysVisible: 1
   m_SceneHierarchy:
     m_TreeViewState:
-      scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 
-      m_LastClickedID: 0
-      m_ExpandedIDs: 7a01fdff1e5cfdff306ffdffb0c3fdfffacafdff7cddfdff0434fefff638feff643afeffc43dfeff7650feffa052feff6a55feffc855feff92aafeff22abfeff8eabfeff64aefeffa00a0100060c01001e0f0100885e01000863010020810100a0850100d08a0100a28e0100
+      scrollPos: {x: 0, y: 106}
+      m_SelectedIDs: 9ef50000
+      m_LastClickedID: 62878
+      m_ExpandedIDs: 10b5fefff808ffffe8bdffff32fbffff865a000036eb000020f1000086f200009ef50000a6fb0000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -507,8 +507,8 @@ MonoBehaviour:
       floating: 0
       collapsed: 0
       displayed: 1
-      snapOffset: {x: -166, y: -26}
-      snapOffsetDelta: {x: -5, y: 0}
+      snapOffset: {x: -171, y: -26}
+      snapOffsetDelta: {x: 0, y: 0}
       snapCorner: 3
       id: Tool Settings
       index: 0
@@ -942,9 +942,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 1557.3046, y: 510.3203, z: 0}
+    m_Target: {x: 461.33954, y: 677.41223, z: 99.17969}
     speed: 2
-    m_Value: {x: 1557.3046, y: 510.3203, z: 0}
+    m_Value: {x: 461.33954, y: 677.41223, z: 99.17969}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -990,17 +990,17 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0, y: 0, z: 0, w: 1}
+    m_Target: {x: 0.0014957942, y: 0.07492962, z: -0.000112395006, w: 0.99718755}
     speed: 2
-    m_Value: {x: 0, y: 0, z: 0, w: 1}
+    m_Value: {x: 0.0014957944, y: 0.074929625, z: -0.00011239502, w: 0.9971877}
   m_Size:
-    m_Target: 438.56476
+    m_Target: 820.50684
     speed: 2
-    m_Value: 438.56476
+    m_Value: 820.50684
   m_Ortho:
-    m_Target: 0
+    m_Target: 1
     speed: 2
-    m_Value: 0
+    m_Value: 1
   m_CameraSettings:
     m_Speed: 0.001
     m_SpeedNormalized: 0
@@ -1120,7 +1120,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scripts
+    - Assets/Freeui/ZOSMA/Main
     m_Globs: []
     m_OriginalText: 
     m_ImportLogFlags: 0
@@ -1128,16 +1128,16 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 57
   m_LastFolders:
-  - Assets/Scripts
+  - Assets/Freeui/ZOSMA/Main
   m_LastFoldersGridSize: 57
   m_LastProjectPath: C:\Users\Betsy\Documents\Videojuegos\72Horas\72 horas
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 106}
-    m_SelectedIDs: 408d0100
-    m_LastClickedID: 101696
-    m_ExpandedIDs: 00000000fa05000000ca9a3b
+    scrollPos: {x: 0, y: 166}
+    m_SelectedIDs: 665d0000
+    m_LastClickedID: 23910
+    m_ExpandedIDs: 000000000a5c00001e5c0000225c0000625d0000645d0000665d000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1165,7 +1165,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000fa05000000ca9a3b
+    m_ExpandedIDs: 000000000a5c000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1190,10 +1190,10 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: 
-    m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 0
-    m_ExpandedInstanceIDs: c6230000c27d0000c07d0000481b010026880000a4c30100526f00006c6f0000e6bb000016bc000086bb000012bc000000000000
+    m_SelectedInstanceIDs: 9ef50000
+    m_LastClickedInstanceID: 62878
+    m_HadKeyboardFocusLastEvent: 1
+    m_ExpandedInstanceIDs: c6230000c27d0000c07d0000481b010026880000a4c30100526f00006c6f0000e6bb000016bc000086bb000012bc0000648c0100708c0100088d010000000000008d01004c8c0100a68c0100448c0100748c0100fc5a0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1291,7 +1291,7 @@ MonoBehaviour:
     m_OverlaysVisible: 1
   m_LockTracker:
     m_IsLocked: 0
-  m_LastSelectedObjectID: -190530
+  m_LastSelectedObjectID: -14274
 --- !u!114 &16
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -1311,8 +1311,8 @@ MonoBehaviour:
     y: 0
     width: 335
     height: 627
-  m_MinSize: {x: 275, y: 50}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 276, y: 71}
+  m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 17}
   m_Panes:
   - {fileID: 17}
@@ -1359,7 +1359,7 @@ MonoBehaviour:
     m_ControlHash: -371814159
     m_PrefName: Preview_InspectorPreview
   m_LastInspectedObjectInstanceID: -1
-  m_LastVerticalScrollValue: 0
+  m_LastVerticalScrollValue: 162
   m_GlobalObjectId: 
   m_InspectorMode: 0
   m_LockTracker:
