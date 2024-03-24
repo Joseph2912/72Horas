@@ -23,12 +23,17 @@ public class santa : MonoBehaviour
 
     public Gradient healthGradient; // Gradiente de colores para la salud
 
+    public AudioSource audioSource;
+    public float tiempoEsperaEntreAtaques = 1f; // Tiempo de espera entre ataques en segundos
+    private float tiempoUltimoAtaque; // Tiempo en que se realizó el último ataque
+
     void Start()
     {
         rb = GetComponent<Rigidbody>();
         anim = GetComponent<Animator>();
         currentHealth = maxHealth; // Inicializar la salud actual con la máxima salud
         UpdateHealthUI(); // Actualizar el slider de salud al inicio
+        tiempoUltimoAtaque = -tiempoEsperaEntreAtaques;
     }
 
     public void PrenderCollider()
@@ -51,9 +56,11 @@ public class santa : MonoBehaviour
         // Calcula la dirección del movimiento
         movement = new Vector3(moveHorizontal, 0.0f, moveVertical).normalized;
 
-        if (Input.GetMouseButtonDown(0)) // 0 representa el botón izquierdo del mouse
+        if (Input.GetMouseButtonDown(0) && Time.time >= tiempoUltimoAtaque + tiempoEsperaEntreAtaques) // 0 representa el botón izquierdo del mouse
         {
             anim.SetBool("golpe", true);
+            audioSource.PlayOneShot(audioSource.clip);
+            tiempoUltimoAtaque = Time.time; // Actualizar el tiempo del último ataque
         }
         else
         {
