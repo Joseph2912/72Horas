@@ -7,6 +7,7 @@ TagManager:
   - Espada
   - Stairs
   - Enemy
+  - Puerta
   layers:
   - Default
   - TransparentFX
