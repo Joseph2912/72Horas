@@ -14,4 +14,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Dungeon Cute Series/Scenes/Dungeon Top Down.unity
     guid: de473c23f02d0ea4dab6f84b1f6703e6
+  - enabled: 1
+    path: Assets/Scenes/Final.unity
+    guid: b9d41bd5988320f4daf096a3143e9418
   m_configObjects: {}
