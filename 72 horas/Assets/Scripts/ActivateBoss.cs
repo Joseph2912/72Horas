@@ -5,13 +5,13 @@ using UnityEngine.AI;
 
 public class ActivateBoss : MonoBehaviour
 {
-    public NavMeshAgent stingAgent;
+    public GameObject boss;
 
     private void OnTriggerEnter(Collider other)
     {
         if (other.CompareTag("Player"))
         {
-            stingAgent.GetComponent<NavMeshAgent>().enabled = true;
+            boss.SetActive(true);
         }
     }
 }

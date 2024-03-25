@@ -15,6 +15,9 @@ public class PatrullaGhost : MonoBehaviour
     public Transform playerPos;
     private Animator _anim;
 
+    [Header("Attack Collider")]
+    public SphereCollider attack;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -65,5 +68,16 @@ public class PatrullaGhost : MonoBehaviour
         _waypointsIndex++;
         if( _waypointsIndex == waypoints.Length)
             _waypointsIndex = 0;
+    }
+
+    public void OnAttack()
+    {
+        attack.enabled = true;
+    }
+
+    public void OffAttack()
+    {
+        attack.enabled = false;
+        _anim.SetBool("Attack", false);
     }
 }

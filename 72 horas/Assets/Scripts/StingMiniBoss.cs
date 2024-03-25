@@ -42,7 +42,7 @@ public class StingMiniBoss : MonoBehaviour
         }
         if (Vector3.Distance(transform.position, playerPos.position) < _distanceToAvoid) 
         {
-            transform.LookAt(new Vector3(playerPos.position.x, transform.position.y, playerPos.position.z));
+            transform.LookAt(playerPos.position); 
             _agent.SetDestination(transform.position + (transform.position - playerPos.position));
         }
         else
