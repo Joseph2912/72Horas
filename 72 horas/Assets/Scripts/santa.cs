@@ -120,6 +120,19 @@ public class santa : MonoBehaviour
         }
     }
 
+    public void RestoreLife(int life)
+    {
+        if (currentHealth == maxHealth)
+        {
+            currentHealth = maxHealth;
+        }
+        else
+        {
+            currentHealth += life;
+            UpdateHealthUI() ;
+        }
+    }
+
     void Die()
     {
         // Reiniciar la escena
