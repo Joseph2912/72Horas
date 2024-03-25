@@ -9,7 +9,11 @@ TagManager:
   - Enemy
   - Puerta
   - StingZone
+<<<<<<< HEAD
   - Suelo
+=======
+  - Escudo
+>>>>>>> a6048d34e7120ff3e69cab0980851a90fd629b12
   layers:
   - Default
   - TransparentFX
