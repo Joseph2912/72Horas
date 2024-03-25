@@ -8,6 +8,7 @@ public class StingMiniBoss : MonoBehaviour
     [Header("Enemy")]
     private NavMeshAgent _agent;
     private Animator _anim;
+    [SerializeField] private float _distanceToAvoid;
 
     [Header("Player")]
     public Transform playerPos;
@@ -39,10 +40,14 @@ public class StingMiniBoss : MonoBehaviour
             RandomAttack();
             _contador = 0f;
         }
-        if (Vector3.Distance(transform.position, playerPos.position) < 3) 
+        if (Vector3.Distance(transform.position, playerPos.position) < _distanceToAvoid) 
         {
             transform.LookAt(new Vector3(playerPos.position.x, transform.position.y, playerPos.position.z));
-            _agent.SetDestination(playerPos.position - transform.position);
+            _agent.SetDestination(transform.position + (transform.position - playerPos.position));
+        }
+        else
+        {
+            _agent.SetDestination(playerPos.position);
         }
     }
 

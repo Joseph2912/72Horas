@@ -34,7 +34,7 @@ public class PatrullaGhost : MonoBehaviour
             _anim.SetBool("Attack", false);
             _agent.SetDestination(playerPos.position);
             _agent.speed = 4;
-            if(Vector3.Distance(transform.position, playerPos.position) < 1)
+            if(Vector3.Distance(transform.position, playerPos.position) < 1.5)
             {
                 _agent.SetDestination(transform.position);
                 _anim.SetBool("Dash", false);
