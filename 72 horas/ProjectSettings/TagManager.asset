@@ -3,17 +3,7 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags:
-  - Espada
-  - Stairs
-  - Enemy
-  - Puerta
-  - StingZone
-<<<<<<< HEAD
-  - Suelo
-=======
-  - Escudo
->>>>>>> a6048d34e7120ff3e69cab0980851a90fd629b12
+  tags: []
   layers:
   - Default
   - TransparentFX
