@@ -4,11 +4,14 @@ public class Portal : MonoBehaviour
 {
     public Transform destination; // Punto de destino al que se teletransportará el jugador
 
+    public AudioSource audioSource;
+
     private void OnTriggerEnter(Collider other)
     {
         if (other.CompareTag("Player")) // Verificar si el objeto que entra al portal es el jugador
         {
             TeleportPlayer(other.transform);
+            audioSource.Play();
         }
     }
 
