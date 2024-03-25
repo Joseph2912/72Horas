@@ -10,10 +10,14 @@ public class VidaEnemy : MonoBehaviour
     private NavMeshAgent _agent;
     public GameObject puerta; // Referencia al objeto de la puerta
     public AudioSource audioSource;
+    public GameObject objetoConRigidbody; // Referencia al GameObject con el Rigidbody
+    private Rigidbody rb; // Referencia al Rigidbody
 
     void Start()
     {
         _anim = GetComponent<Animator>();
+        rb = objetoConRigidbody.GetComponent<Rigidbody>(); // Obtener el componente Rigidbody
+        rb.isKinematic = true; // Asegurarse de que el Rigidbody esté inicialmente desactivado
     }
 
     public void RecibirGolpe()
@@ -32,5 +36,6 @@ public class VidaEnemy : MonoBehaviour
         Destroy(this.gameObject);
         puerta.GetComponent<Puerta>().AbrirPuerta();
         audioSource.Play();
+        rb.isKinematic = false; // Activar el Rigidbody
     }
 }
