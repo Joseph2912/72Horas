@@ -9,6 +9,7 @@ TagManager:
   - Enemy
   - Puerta
   - StingZone
+  - Suelo
   layers:
   - Default
   - TransparentFX
