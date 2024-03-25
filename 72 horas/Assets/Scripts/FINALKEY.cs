@@ -3,7 +3,8 @@ using UnityEngine;
 public class FINALKEY : MonoBehaviour
 {
     public GameObject puerta; // Referencia al objeto de la puerta
-   /* public AudioClip sonidoLlave; */// Sonido al recolectar la llave
+    /* public AudioClip sonidoLlave; */// Sonido al recolectar la llave
+    public AudioSource audioSource;
 
     private bool llaveRecogida = false; // Variable para controlar si la llave ha sido recogida
 
@@ -12,11 +13,13 @@ public class FINALKEY : MonoBehaviour
         if (other.CompareTag("Player") && !llaveRecogida) // Verifica si el objeto que colisiona es el jugador y la llave no ha sido recogida
         {
             RecogerLlave(); // Función para recoger la llave
+            audioSource.Play();
         }
     }
 
     private void RecogerLlave()
     {
+        
         llaveRecogida = true; // Marca la llave como recogida
        /* AudioSource.PlayClipAtPoint(sonidoLlave, transform.position); */// Reproduce el sonido de recolección en la posición de la llave
 
