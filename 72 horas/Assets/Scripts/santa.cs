@@ -107,7 +107,7 @@ public class santa : MonoBehaviour
         if (!isGrounded && isOnStairs)
         {
             // Bajar las escaleras suavemente
-            rb.velocity += Physics.gravity * Time.fixedDeltaTime;
+            rb.velocity += Physics.gravity * rb.mass * Time.fixedDeltaTime;
         }
     }
     public void TakeDamage(int damage)

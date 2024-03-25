@@ -5,7 +5,7 @@ public class FINALKEY : MonoBehaviour
     public GameObject puerta; // Referencia al objeto de la puerta
     public AudioSource audioSource; // Fuente de audio para reproducir sonido al recoger la llave
 
-    private static int llavesRecogidas = 0; // Variable estática para contar las llaves recogidas
+    [SerializeField] private static int llavesRecogidas = 0; // Variable estática para contar las llaves recogidas
     private bool llaveRecogida = false; // Variable para controlar si esta llave ha sido recogida
 
     private void OnTriggerEnter(Collider other)
@@ -26,7 +26,7 @@ public class FINALKEY : MonoBehaviour
         gameObject.SetActive(false);
 
         // Verifica si se han recogido todas las llaves
-        if (llavesRecogidas == 4 && puerta != null)
+        if (llavesRecogidas == 3 && puerta != null)
         {
             puerta.GetComponent<Puerta>().AbrirPuerta(); // Llama a la función para abrir la puerta en el script de la puerta
         }
